@@ -1,0 +1,44 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  background: yellow;
+  text-align: center;
+}
+
+#data {
+  background: Yellow;
+  font-weight: bold;
+  margin: auto;
+}
+
+#grouping_criteria {
+  margin: 30px;
+  text-align: center;
+}
+
+.drop_down_list {
+  padding: 3px;
+}
+
+button {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#result {
+  background: rgb(207, 206, 206);
+  margin-top: 100px;
+  margin-left: 20%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
