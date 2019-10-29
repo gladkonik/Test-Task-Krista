@@ -19,7 +19,7 @@ input {
 }
 
 .drop_down_list {
-  padding: 3px;
+  padding: 4px;
 }
 
 button {
@@ -42,3 +42,4 @@ th,
 td {
   border: 1px solid black;
 }
+td {padding: 4px;}
