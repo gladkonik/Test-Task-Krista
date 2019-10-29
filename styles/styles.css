@@ -5,6 +5,7 @@
 input {
   background: yellow;
   text-align: center;
+  padding: 2px;
 }
 
 #data {
@@ -42,4 +43,7 @@ th,
 td {
   border: 1px solid black;
 }
-td {padding: 4px;}
+
+td {
+  padding: 4px;
+}
