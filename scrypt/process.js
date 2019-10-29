@@ -45,7 +45,7 @@ function getTable(criterias) {
   }
   for (let i = 0; i < tableInCols.length; i++) {
     for (let j = 0; j < tableInCols[0].length; j++) {
-      tableInRows[j][i] = parseInt(tableInCols[i][j]);
+      tableInRows[j][i] = tableInCols[i][j];
     }
   }
   return tableInRows;
@@ -77,10 +77,11 @@ function process() {
     return;
   }
   let table = getTable(criterias);
+  console.log(table);
   var groups = group(criterias, table);
   //results of next operations are stored in first rows of each group
   criterias.forEach(criteria => {
-    switch (criteria+"") {
+    switch (criteria + "") {
       case "sum":
         sumColumnInGroups(groups, criteria.columnNumber);
         break;

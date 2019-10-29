@@ -9,11 +9,11 @@ let columnNames = `
     `;
 let table = `
         <tr>
-            <td><input type="number" class="col_a" value="100"></td>
-            <td><input type="number" class="col_b" value="40"></td>
-            <td><input type="number" class="col_c" value="123"></td>
-            <td><input type="number" class="col_d" value="3"></td>
-            <td><input type="number" class="col_e" value="4"></td>
+            <td><input type="text" class="col_a" value="1"></td>
+            <td><input type="text" class="col_b" value="1"></td>
+            <td><input type="text" class="col_c" value="1"></td>
+            <td><input type="text" class="col_d" value="1"></td>
+            <td><input type="text" class="col_e" value="1"></td>
         </tr>
     `;
 
