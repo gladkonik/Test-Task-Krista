@@ -81,7 +81,7 @@ function process() {
   var groups = group(criterias, table);
   //results of next operations are stored in first rows of each group
   criterias.forEach(criteria => {
-    switch (criteria + "") {
+    switch (criteria.toString()) {
       case "sum":
         sumColumnInGroups(groups, criteria.columnNumber);
         break;
